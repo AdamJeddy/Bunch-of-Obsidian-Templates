@@ -1,9 +1,9 @@
 ---
 created: ["{{date}} {{time}}"]
-tags: ["#book #info"]
+tags:
+  - book
+  - info
 ---
-# [[{{title}}]]
-
 | X                      | X       |
 | ---------------------- | ------- |
 | Author:                |         |
@@ -13,22 +13,4 @@ tags: ["#book #info"]
 | Average WPM:           |         |
 | Date Started/Finished: | X to X  |
 | Time took:             | X Hours |
-
----
-### About the book
-#### Impressions
-
-#### How I Discovered It
-
-
-#### Who Should Read It?
-
-
-#### Actionable Takeaways
-
-
-#### Top Quotes
-
-
-### Summary + Notes
----
+| Rating:                | /10     |
