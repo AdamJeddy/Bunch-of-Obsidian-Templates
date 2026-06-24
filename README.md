@@ -33,6 +33,16 @@ All templates use **Templater**-style variables (`{{date}}`, `{{title}}`, etc.).
 
 ---
 
+## Contributing 🤝
+
+Have a template idea or improvement? PRs are welcome! The goal is to keep templates:
+- Minimal — easy to adapt
+- Self documenting — clear section names
+
+Feel free to use, modify, and share these templates however you like.
+
+---
+
 ## Folder Structure
 
 ```
@@ -56,6 +66,18 @@ Bunch-of-Obsidian-Templates/
 │   └── Project Template.md
 ├── 🎯 Habits/
 │   └── Habit Tracker Template.md
+├── Career/
+│   ├── Job Application Tracker Template.md
+│   └── Job Applications List Template.md
+├── Travel/
+│   ├── Trip Planner Template.md
+│   └── Travel Journal Template.md
+├── Food/
+│   ├── Recipe Template.md
+│   ├── Meal Prep Plan Template.md
+│   └── Grocery List Template.md
+├── Media/
+│   └── Movie TV Log Template.md
 ├── 🎓 Study - University - School/
 │   ├── Lecture Notes Template.md
 │   ├── Study Schedule Template.md
@@ -110,7 +132,35 @@ Bunch-of-Obsidian-Templates/
 |----------|-------------|----------|
 | [Habit Tracker](Habits/Habit%20Tracker%20Template.md) | Monthly habit grid with daily checkboxes | Building consistent habits |
 
-### 🎓 Study & University
+### Travel
+
+| Template | Description | Best For |
+|----------|-------------|----------|
+| [Trip Planner](Travel/Trip%20Planner%20Template.md) | Itinerary, budget, packing list, pre-trip checklist | Trip preparation |
+| [Travel Journal](Travel/Travel%20Journal%20Template.md) | Daily log with highlights, expenses, and reflections | On-the-road journaling |
+
+### Food
+
+| Template | Description | Best For |
+|----------|-------------|----------|
+| [Recipe](Food/Recipe%20Template.md) | Structured recipe with ingredients, instructions, and notes | Cooking reference |
+| [Meal Prep Plan](Food/Meal%20Prep%20Plan%20Template.md) | Weekly meal plan with categorized grocery list | Weekly meal planning |
+| [Grocery List](Food/Grocery%20List%20Template.md) | Categorized shopping list with budget tracking | Shopping trips |
+
+### Media
+
+| Template | Description | Best For |
+|----------|-------------|----------|
+| [Movie / TV Log](Media/Movie%20TV%20Log%20Template.md) | Watch log with reviews, ratings, and episode tracking | Tracking what you watch |
+
+### Career
+
+| Template | Description | Best For |
+|----------|-------------|----------|
+| [Job Applications List](Career/Job%20Applications%20List%20Template.md) | Master dashboard with all applications, statuses, and pipeline stages | Overview of entire job search |
+| [Job Application Tracker](Career/Job%20Application%20Tracker%20Template.md) | Per-application tracker with timeline, contacts, and interview prep | Individual application details |
+
+### Study & University
 
 | Template | Description | Best For |
 |----------|-------------|----------|
@@ -130,14 +180,4 @@ These templates work best with:
 | [Dataview](https://github.com/blacksmithgu/obsidian-dataview) | Query and aggregate data across notes |
 | [Calendar](https://github.com/liamcain/obsidian-calendar-plugin) | Visual calendar for daily notes |
 | [Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks) | Advanced task management with dates and priorities |
-
----
-
-## Contributing 🤝
-
-Have a template idea or improvement? PRs are welcome! The goal is to keep templates:
-- Minimal — easy to adapt
-- Self documenting — clear section names
-
-Feel free to use, modify, and share these templates however you like.
 
