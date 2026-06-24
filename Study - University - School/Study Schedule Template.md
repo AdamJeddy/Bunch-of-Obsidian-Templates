@@ -1,41 +1,36 @@
-# Study Schedule - [Semester/Quarter]
+---
+created: ["{{date}} {{time}}"]
+tags:
+  - university
+  - schedule
+semester: 
+start_date: 
+end_date: 
+---
+# 📅 Study Schedule — [Semester]
 
-**Courses:** [List of Courses]
-**Start Date:** [Start Date]
-**End Date:** [End Date]
+| Field           | Value |
+| --------------- | ----- |
+| **Courses**     |       |
+| **Start Date**  |       |
+| **End Date**    |       |
 
-## Week 1
-- **Monday**
-    - [Course 1] - Chapter 1
-    - [Course 2] - Lecture 1
+## 🗓 Weekly Plan
 
-- **Tuesday**
-  - [Course 1] - Chapter 2
-  - [Course 3] - Lecture 1
+| Day       | Morning | Afternoon | Evening |
+| --------- | ------- | --------- | ------- |
+| Monday    |         |           |         |
+| Tuesday   |         |           |         |
+| Wednesday |         |           |         |
+| Thursday  |         |           |         |
+| Friday    |         |           |         |
+| Saturday  |         |           |         |
+| Sunday    |         |           |         |
 
-- **Wednesday**
-  - [Course 2] - Assignment 1
-  - [Course 3] - Discussion
+## 📋 Assignments & Deadlines
+| Course | Task | Deadline | Status |
+| ------ | ---- | -------- | ------ |
+|        |      |          |        |
 
-- **Thursday**
-  - [Course 1] - Review Session
-  - [Course 2] - Chapter 3
-
-- **Friday**
-  - [Course 3] - Assignment 2
-  - [Course 1] - Lecture 2
-
-- **Saturday**
-  - [Course 2] - Quiz 1
-  - [Course 3] - Chapter 1
-
-- **Sunday**
-  - [Course 1] - Assignment 1
-  - [Course 2] - Chapter 4
-
-## Week 2
-... (continue the schedule for each week of the semester)
-
-## Notes
-Add any additional notes or reminders related to your study schedule.
-
+## 📝 Notes
+- 

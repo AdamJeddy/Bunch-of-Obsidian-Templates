@@ -1,27 +1,36 @@
-# Lecture Notes - [[Course Name]] - [Week Number]
+---
+created: ["{{date}} {{time}}"]
+tags:
+  - university
+  - lecture-notes
+subject: 
+week: 
+topic: 
+---
+# 📝 Lecture Notes — [[Subject]] — Week {{date:WW}}
 
-**Date:**: [Date]
-**Topic:**: [Lecture Topic]
+| Field      | Value              |
+| ---------- | ------------------ |
+| **Date**   | {{date:YYYY-MM-DD}} |
+| **Topic**  |                    |
+| **Course** |                    |
 
-## Key Points
-- Key point 1
-- Key point 2
-- Key point 3
+## 🎯 Key Points
+- 
 
-## Detailed Notes
-Write your detailed lecture notes here. Use headings and bullet points for organization.
+## 📖 Detailed Notes
 
 ### Subtopic 1
-- Subpoint 1
-- Subpoint 2
+- 
 
 ### Subtopic 2
-- Subpoint 1
-- Subpoint 2
+- 
 
-## Questions and Clarifications
-List any questions or concepts that you need clarification on.
+## ❓ Questions & Clarifications
+- 
 
-## Homework Assignments
-Record any homework assignments or tasks related to this lecture.
+## 📚 Homework / Tasks
+- [ ] 
 
+## 🔗 Related Notes
+- 

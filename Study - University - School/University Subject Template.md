@@ -1,33 +1,42 @@
 ---
 created: ["{{date}} {{time}}"]
-tags: ["#info #subject #university"]
+tags:
+  - university
+  - subject
+semester: 
+professor: 
+status: "active"
 ---
+# 📚 [[{{title}}]]
 
-# [[{{title}}]]
----
 ## ❓ Information
-- Subject Name: ...
-- Professor: ...
-- Lab Instructor: ...
-- Semester: ...
-- Prerequisite: ...
-- Tags: ...
+| Field               | Value |
+| ------------------- | ----- |
+| **Subject Name**    |       |
+| **Professor**       |       |
+| **Lab Instructor**  |       |
+| **Semester**        |       |
+| **Prerequisite**    |       |
 
 ## 🌍 General Overview
 ...
 
-## Personal opinion on the subject
-....
-
+## 💭 Personal Opinion
+...
 
 ## 🎯 Assignments
-| Type / Name                 | Deadline        |
-| --------------------------- | --------------- |
-| Assignment 1                |  1/1/2000       |
-| Assignment 2                |  1/1/2000       |
+| Type / Name    | Deadline  | Status |
+| -------------- | --------- | ------ |
+| Assignment 1   |           |        |
+| Assignment 2   |           |        |
 
 ## 📅 Important Dates
-- 
+| Date | Event |
+| ---- | ----- |
+|      |       |
 
 ## 📦 Resources
+- 
+
+## 📝 Lecture Notes
 - 
