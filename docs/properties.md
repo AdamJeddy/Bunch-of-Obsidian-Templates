@@ -2,6 +2,12 @@
 
 Properties are the YAML fields between the opening `---` lines. Edit them in Obsidian's Properties panel or in Source mode. They hold the structured facts about a note; body sections hold the details, reflections, and tasks.
 
+## Choose property types in Obsidian
+
+Obsidian may initially display an ISO timestamp as text. After inserting a template into a named note, click the icon beside `created`, choose **Property type → Date & time**, and confirm that the date/time editor appears. For date-only fields such as `birthday` or `deadline`, choose **Date** if needed. Numeric fields such as `rating`, `pages`, and `budget` can use **Number**.
+
+Property types apply to the same property name throughout that vault. Configure types on a populated note, and edit reusable template files in Source mode so the Properties editor does not rewrite their quoted variables. Changing the display type does not turn a creation timestamp into a live clock.
+
 ## Shared fields
 
 | Field | Format | How to use it |

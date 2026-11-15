@@ -10,8 +10,6 @@ category:
 ---
 # 🚀 {{title}}
 
-## 📋 Overview
-
 <!-- Set status, priority, deadline, and category in Properties above. -->
 
 ## 🎯 Objective

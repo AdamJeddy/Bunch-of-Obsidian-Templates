@@ -9,6 +9,7 @@
 - Per-template naming and usage guidance, contribution guidance, and an MIT License.
 - A People-template walkthrough with personal/professional examples, addressing the documentation request in [issue #1](https://github.com/AdamJeddy/Bunch-of-Obsidian-Templates/issues/1).
 - Automated checks for template metadata, catalog coverage, local links, and completed examples.
+- Desktop validation notes and guidance for selecting native date/time property editors in Obsidian.
 
 ### Changed
 

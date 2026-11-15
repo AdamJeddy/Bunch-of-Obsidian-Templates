@@ -23,6 +23,8 @@ Templates, corrections, and clearer examples are welcome. Keep each contribution
 4. If you changed date expressions, check month/year boundaries and leap years.
 5. State what you tested in the pull request, including any optional plugins you used.
 
+See the [desktop validation record](docs/validation.md) for the tested paths and remaining platform coverage.
+
 ## Automated checks
 
 Use Python 3.12 or newer and install the [development dependencies](requirements-dev.txt), preferably in a virtual environment:

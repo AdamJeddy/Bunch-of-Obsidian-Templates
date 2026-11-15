@@ -23,6 +23,7 @@ The `{{date}}`, `{{time}}`, and `{{title}}` syntax belongs to core Templates. Te
 - [People templates: setup, contact links, and completed examples](docs/people.md)
 - [Properties, status values, and migration notes](docs/properties.md)
 - [Connected project workflow and completed examples](docs/workflows/project-workflow.md)
+- [Validation results and coverage limits](docs/validation.md)
 - [Contributing a template or improvement](CONTRIBUTING.md)
 
 Start a connected workflow with **Project → Meeting → Decision → Retrospective**, and review it from a Project Dashboard. The [completed example](examples/README.md) includes a contact note and works without community plugins.

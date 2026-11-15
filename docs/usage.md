@@ -11,7 +11,7 @@
 
 Only insert one full-note template into an empty note. These templates include frontmatter, which belongs at the beginning of a note.
 
-Short editing tips are stored in HTML comments (`<!-- ... -->`). They stay available in Source mode and are hidden in reading mode. Full instructions are in the [template guide](template-guide.md); fill structured fields in Properties at the top of the note.
+Short editing tips are stored in HTML comments (`<!-- ... -->`). They stay available in Source mode and are hidden in reading mode; they can still appear while editing in Live Preview. Full instructions are in the [template guide](template-guide.md); fill structured fields in Properties at the top of the note. See [property types](properties.md#choose-property-types-in-obsidian) if a timestamp appears as text instead of a date/time editor.
 
 ## Fill values without enabling Templates
 
