@@ -20,6 +20,8 @@
 
 ### Fixed
 
+- Repository checks reject invalid dates and unsupported status values, including malformed unquoted dates that previously caused the checker to crash.
+
 - Weekly labels use the ISO week-year at New Year.
 - Month navigation uses editable links in the core template; optional Templater arithmetic is documented separately.
 - Setup no longer sends core template variables through Templater commands.

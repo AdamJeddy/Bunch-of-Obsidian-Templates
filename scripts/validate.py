@@ -1,6 +1,6 @@
 """Check template metadata, documentation links, and completed examples."""
 
-from datetime import datetime
+from datetime import date, datetime
 import os
 from pathlib import Path
 import re
@@ -11,6 +11,20 @@ import yaml
 
 
 CREATED = "{{date:YYYY-MM-DD}}T{{time:HH:mm:ss}}"
+DATE_FIELDS = (
+    "birthday", "deadline", "meeting_date", "decision_date", "review_date",
+    "date_started", "date_finished", "applied_date", "start_date", "end_date",
+    "last_reviewed",
+)
+STATUS_VALUES = {
+    "project": {"planning", "active", "on-hold", "completed", "cancelled"},
+    "job-application": {"saved", "applied", "interviewing", "offer", "rejected", "declined"},
+    "job-applications-dashboard": {"active", "paused", "completed"},
+    "media": {"plan to watch", "watching", "finished"},
+    "trip": {"planning", "booked", "in-progress", "completed", "cancelled"},
+    "subject": {"active", "completed", "dropped"},
+    "decision": {"proposed", "accepted", "superseded"},
+}
 
 
 class UniqueKeyLoader(yaml.SafeLoader):
@@ -73,8 +87,8 @@ def validate_repository(root):
             continue
         try:
             props = yaml.load(front.group(1), Loader=UniqueKeyLoader)
-        except yaml.YAMLError as error:
-            errors.append(f"{label}: invalid YAML: {error}")
+        except (yaml.YAMLError, ValueError) as error:
+            errors.append(f"{label}: invalid YAML or calendar date: {error}")
             continue
         if not isinstance(props, dict):
             errors.append(f"{label}: frontmatter must be a mapping")
@@ -82,6 +96,11 @@ def validate_repository(root):
         kind = props.get("note_type")
         if not isinstance(kind, str) or not re.fullmatch(r"[a-z][a-z0-9]*(?:-[a-z0-9]+)*", kind):
             errors.append(f"{label}: note_type must be a lowercase identifier")
+        status = props.get("status")
+        if isinstance(kind, str) and kind in STATUS_VALUES and status not in (None, ""):
+            if not isinstance(status, str) or status not in STATUS_VALUES[kind]:
+                allowed = ", ".join(sorted(STATUS_VALUES[kind]))
+                errors.append(f"{label}: status for {kind} must be one of: {allowed}")
         tags = props.get("tags")
         if not isinstance(tags, list) or not tags or not all(isinstance(tag, str) and tag.strip() for tag in tags):
             errors.append(f"{label}: tags must be a nonempty list of text values")
@@ -94,6 +113,17 @@ def validate_repository(root):
                 datetime.fromisoformat(value)
             except ValueError:
                 errors.append(f"{label}: created must be a scalar ISO timestamp")
+        for field in DATE_FIELDS:
+            value = props.get(field)
+            if value in (None, "", "{{date:YYYY-MM-DD}}", "{{time:YYYY-MM-DD}}"):
+                continue
+            value = value.isoformat() if type(value) is date else value
+            try:
+                if not isinstance(value, str) or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", value):
+                    raise ValueError
+                date.fromisoformat(value)
+            except ValueError:
+                errors.append(f"{label}: {field} must be an empty value or a YYYY-MM-DD date")
         if "rating" in props:
             scale, rating = props.get("rating_scale"), props["rating"]
             if type(scale) not in (int, float) or scale <= 0:

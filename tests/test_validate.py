@@ -88,6 +88,62 @@ class RepositoryValidationTests(unittest.TestCase):
         self.template.write_text(TEMPLATE.replace("---\n#", "rating: 8\nrating_scale: 5\n---\n#"), encoding="utf-8")
         self.assertTrue(validate_repository(self.root))
 
+    def test_status_values_follow_the_documented_note_types(self):
+        cases = {
+            "project": "active",
+            "job-application": "offer",
+            "job-applications-dashboard": "paused",
+            "media": "plan to watch",
+            "trip": "booked",
+            "subject": "dropped",
+            "decision": "superseded",
+        }
+        for kind, valid_status in cases.items():
+            for status in (valid_status, "", "teleporting", "[]", "false"):
+                with self.subTest(kind=kind, status=status):
+                    text = TEMPLATE.replace("note_type: project", f"note_type: {kind}")
+                    text = text.replace("---\n#", f"status: {status}\n---\n#")
+                    self.template.write_text(text, encoding="utf-8")
+                    errors = validate_repository(self.root)
+                    if status in (valid_status, ""):
+                        self.assertEqual(errors, [])
+                    else:
+                        self.assertTrue(any("status" in error for error in errors))
+
+    def test_all_documented_date_fields_reject_non_dates(self):
+        fields = (
+            "birthday", "deadline", "meeting_date", "decision_date", "review_date",
+            "date_started", "date_finished", "applied_date", "start_date", "end_date",
+            "last_reviewed",
+        )
+        for field in fields:
+            with self.subTest(field=field):
+                text = TEMPLATE.replace("---\n#", f"{field}: definitely-not-a-date\n---\n#")
+                self.template.write_text(text, encoding="utf-8")
+                self.assertTrue(any(field in error for error in validate_repository(self.root)))
+
+    def test_dates_accept_empty_values_iso_dates_and_explicit_variables(self):
+        values = (
+            "", '""', "2024-02-29", '"2024-02-29"',
+            '"{{date:YYYY-MM-DD}}"', '"{{time:YYYY-MM-DD}}"',
+        )
+        for value in values:
+            with self.subTest(value=value):
+                text = TEMPLATE.replace("---\n#", f"deadline: {value}\n---\n#")
+                self.template.write_text(text, encoding="utf-8")
+                self.assertEqual(validate_repository(self.root), [])
+
+    def test_invalid_calendar_dates_and_types_report_errors_without_crashing(self):
+        values = (
+            "2026-02-29", '"2026-02-29"', '"2026-1-2"', "true", "42", "[]", "{}",
+            '"2026-11-15T09:30:00"', '"{{date}}"', '"{{date:DD/MM/YYYY}}"',
+        )
+        for value in values:
+            with self.subTest(value=value):
+                text = TEMPLATE.replace("---\n#", f"deadline: {value}\n---\n#")
+                self.template.write_text(text, encoding="utf-8")
+                self.assertTrue(validate_repository(self.root))
+
 
 if __name__ == "__main__":
     unittest.main()

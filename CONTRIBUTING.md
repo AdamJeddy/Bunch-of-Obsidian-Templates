@@ -34,3 +34,5 @@ python scripts/validate.py
 ```
 
 The same commands run in GitHub Actions on pushes and pull requests. The checker validates frontmatter (including duplicate keys), shared properties, supported variables, known date-format regressions, rating scales, and coverage in both catalogs. It checks local inline Markdown links outside fenced code blocks and wiki links between completed examples. It does not resolve links in reusable templates, since those refer to the user's vault, or test external websites and live Obsidian behavior.
+
+Populated date properties must use real `YYYY-MM-DD` dates; template date variables must specify that format explicitly. Status values follow the [property conventions](docs/properties.md), and unknown values may be left empty. When adding a date field or changing the supported statuses, update both that guide and the definitions in [the validator](scripts/validate.py).
