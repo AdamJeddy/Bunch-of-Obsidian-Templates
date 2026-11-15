@@ -12,4 +12,4 @@ Start with [Project Dashboard](Project%20workflow/Project%20Dashboard.md), then 
 - [Project retrospective](Project%20workflow/2026-11-14%20Garden%20Retrospective.md)
 - [Professional contact](People/Sam%20Rivera.md)
 
-See the [project workflow guide](../docs/workflows/project-workflow.md) to build your own version.
+The full repository includes the instructions for building your own version at `docs/workflows/project-workflow.md`.
