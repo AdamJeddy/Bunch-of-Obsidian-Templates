@@ -34,4 +34,6 @@ Create and name a note, insert the template, then fill the listed fields. Filena
 
 For past or future periods, correct inserted dates to match the note. Core Templates fills today's date, even when the filename contains another date.
 
+For a step-by-step contact setup, see [Using the People templates](people.md), including personal and professional examples and links from meetings.
+
 See the [project workflow](workflows/project-workflow.md) and [completed examples](../examples/README.md) for linked notes in use.

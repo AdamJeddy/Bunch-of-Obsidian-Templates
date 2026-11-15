@@ -18,6 +18,12 @@ location: Local community center
 
 Fictional contact coordinating the [[Community Garden]] project.
 
+## Relationships
+
+| Person | Relationship | Notes |
+| --- | --- | --- |
+| [[Maya Chen]] | Fellow volunteer | Introduced Maya to the garden group. |
+
 ## Notes
 
 - Prefers a short written checklist before volunteer events.

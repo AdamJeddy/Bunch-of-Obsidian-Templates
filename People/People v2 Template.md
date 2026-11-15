@@ -43,7 +43,6 @@ location:
 ## 📅 Important Dates
 | Event       | Date       |
 | ----------- | ---------- |
-| Birthday    |            |
 | Anniversary |            |
 
 ## 🔗 References

@@ -20,6 +20,7 @@ The `{{date}}`, `{{time}}`, and `{{title}}` syntax belongs to core Templates. Te
 
 - [Setup, automatic values, and troubleshooting](docs/usage.md)
 - [How to use each template and name your notes](docs/template-guide.md)
+- [People templates: setup, contact links, and completed examples](docs/people.md)
 - [Properties, status values, and migration notes](docs/properties.md)
 - [Connected project workflow and completed examples](docs/workflows/project-workflow.md)
 - [Contributing a template or improvement](CONTRIBUTING.md)

@@ -7,6 +7,7 @@
 - A project workflow with decision, retrospective, and dashboard templates, plus linked completed examples.
 - Setup instructions for core Templates, Daily notes, Unique note creator, and manual use.
 - Per-template naming and usage guidance, contribution guidance, and an MIT License.
+- A People-template walkthrough with personal/professional examples, addressing the documentation request in [issue #1](https://github.com/AdamJeddy/Bunch-of-Obsidian-Templates/issues/1).
 - Automated checks for template metadata, catalog coverage, local links, and completed examples.
 
 ### Changed

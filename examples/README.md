@@ -11,5 +11,6 @@ Start with [Project Dashboard](Project%20workflow/Project%20Dashboard.md), then 
 - [Watering decision](Project%20workflow/Garden%20Watering%20Plan.md)
 - [Project retrospective](Project%20workflow/2026-11-14%20Garden%20Retrospective.md)
 - [Professional contact](People/Sam%20Rivera.md)
+- [Personal contact](People/Maya%20Chen.md)
 
 The full repository includes the instructions for building your own version at `docs/workflows/project-workflow.md`.
