@@ -9,7 +9,7 @@ review_date: "{{date:YYYY-MM-DD}}"
 ---
 # {{title}}
 
-> Set the parent project and review date in Properties above. Link this note from the project when closing it or reviewing a milestone.
+<!-- Set the parent project and review date in Properties above. Link this note from the project when closing it or reviewing a milestone. -->
 
 ## Outcome
 

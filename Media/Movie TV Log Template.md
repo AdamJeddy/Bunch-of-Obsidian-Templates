@@ -14,7 +14,7 @@ status: "plan to watch" # plan to watch / watching / finished
 ---
 # {{title}}
 
-> Set year, type, genre, rating, and watch status in Properties above. Rate out of 10.
+<!-- Set year, type, genre, rating, and watch status in Properties above. Rate out of 10. -->
 
 ## Info
 | Field | Value |

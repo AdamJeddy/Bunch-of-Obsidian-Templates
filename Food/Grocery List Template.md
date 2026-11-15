@@ -11,7 +11,7 @@ currency: # e.g. AED, USD, EUR
 ---
 # Grocery List — {{date:YYYY-MM-DD}}
 
-> Set store, budget, and currency in Properties above.
+<!-- Set store, budget, and currency in Properties above. -->
 
 ### Produce
 - [ ] 
@@ -47,7 +47,7 @@ currency: # e.g. AED, USD, EUR
 
 ## Estimated Total
 
-Use the currency selected in Properties above.
+<!-- Use the currency selected in Properties above. -->
 
 ## Notes
 -

@@ -11,7 +11,7 @@ review_date:
 ---
 # {{title}}
 
-> Link the parent project and set dates/status in Properties above. Link this note from the project and the meeting where the decision was discussed.
+<!-- Link the parent project and set dates/status in Properties above. Link this note from the project and the meeting where the decision was discussed. -->
 
 ## Context
 

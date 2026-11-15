@@ -10,7 +10,7 @@ status: "active"
 ---
 # 📚 [[{{title}}]]
 
-> Set professor, semester, and status in Properties above.
+<!-- Set professor, semester, and status in Properties above. -->
 
 ## ❓ Information
 | Field               | Value |

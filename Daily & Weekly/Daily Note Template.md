@@ -39,7 +39,7 @@ energy: # 1 (low) to 5 (high)
 - 
 
 ## 📊 End of Day Reflection
-> Record mood and energy in Properties above using the 1–5 scale.
+<!-- Record mood and energy in Properties above using the 1–5 scale. -->
 
 - **Productivity:** 
 - **What went well:** 

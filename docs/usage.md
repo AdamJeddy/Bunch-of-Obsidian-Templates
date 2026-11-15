@@ -11,6 +11,8 @@
 
 Only insert one full-note template into an empty note. These templates include frontmatter, which belongs at the beginning of a note.
 
+Short editing tips are stored in HTML comments (`<!-- ... -->`). They stay available in Source mode and are hidden in reading mode. Full instructions are in the [template guide](template-guide.md); fill structured fields in Properties at the top of the note.
+
 ## Fill values without enabling Templates
 
 There are two built-in alternatives. They still use Obsidian core plugins, but do not need the Templates plugin or any community plugin.

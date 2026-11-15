@@ -10,7 +10,7 @@ mood:
 ---
 # Travel Journal — [Location]
 
-> Set location, trip day, and mood in Properties above.
+<!-- Set location, trip day, and mood in Properties above. -->
 
 | Field | Value |
 |-------|-------|

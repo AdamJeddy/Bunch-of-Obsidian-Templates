@@ -14,7 +14,7 @@ date_finished:
 ---
 # 📖 [[{{title}}]]
 
-> Set author, genre, pages, reading dates, and rating in Properties above. Rate out of 10.
+<!-- Set author, genre, pages, reading dates, and rating in Properties above. Rate out of 10. -->
 
 | Reading detail         | Value   |
 | ---------------------- | ------- |

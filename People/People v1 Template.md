@@ -10,7 +10,7 @@ location:
 ---
 # [[{{title}}]]
 
-> Personal contact. Set birthday and location in Properties above.
+<!-- Personal contact. Set birthday and location in Properties above. -->
 
 ## 📋 Basic Info
 | Field          | Value                |

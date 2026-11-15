@@ -12,6 +12,8 @@
 
 ### Changed
 
+- Template editing tips are hidden comments, so generated notes keep their guidance in source without displaying setup instructions in reading mode.
+
 - Templates use scalar ISO creation timestamps and explicit note types; migration guidance covers existing notes.
 - Structured facts live in Properties, with manual dashboards and rating scales documented explicitly.
 - People templates have descriptive catalog labels while retaining their original filenames.

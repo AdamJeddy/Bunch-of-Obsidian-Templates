@@ -12,7 +12,7 @@ category:
 
 ## 📋 Overview
 
-> Set status, priority, deadline, and category in Properties above.
+<!-- Set status, priority, deadline, and category in Properties above. -->
 
 ## 🎯 Objective
 What is the goal of this project?
@@ -42,7 +42,7 @@ What is the goal of this project?
 
 ## 🔄 Workflow Notes
 
-Create notes as you need them and add their links here. Set each child note's `project` property to a link to this note.
+<!-- Create notes as you need them and add their links here. Set each child note's `project` property to a link to this note. -->
 
 - Meetings:
 - Decisions:

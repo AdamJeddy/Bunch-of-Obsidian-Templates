@@ -10,7 +10,7 @@ topic:
 ---
 # 📝 {{title}}
 
-> Set subject, topic, and teaching week in Properties above. Teaching week is entered manually.
+<!-- Set subject, topic, and teaching week in Properties above. Teaching week is entered manually. -->
 
 **Date:** {{date:YYYY-MM-DD}}
 

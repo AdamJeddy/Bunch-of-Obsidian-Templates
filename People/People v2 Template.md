@@ -12,7 +12,7 @@ location:
 ---
 # 👤 [[{{title}}]]
 
-> Professional contact. Set birthday, occupation, company, and location in Properties above.
+<!-- Professional contact. Set birthday, occupation, company, and location in Properties above. -->
 
 ## 📋 Basic Info
 | Field               | Value |

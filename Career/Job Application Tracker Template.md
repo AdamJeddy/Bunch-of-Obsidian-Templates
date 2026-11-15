@@ -12,7 +12,7 @@ applied_date:
 ---
 # Job Application — [Role] at [Company]
 
-> Set company, role, status, and application date in Properties above.
+<!-- Set company, role, status, and application date in Properties above. -->
 
 ## Overview
 | Field | Value |

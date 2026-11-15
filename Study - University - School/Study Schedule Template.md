@@ -10,7 +10,7 @@ end_date:
 ---
 # 📅 Study Schedule — [Semester]
 
-> Set semester, start date, and end date in Properties above.
+<!-- Set semester, start date, and end date in Properties above. -->
 
 | Field           | Value |
 | --------------- | ----- |

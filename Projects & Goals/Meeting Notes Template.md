@@ -11,7 +11,7 @@ project: # optional quoted link, e.g. "[[Community Garden]]"
 ---
 # 🤝 {{title}}
 
-> Set meeting date, type, and attendees in Properties above. Use quoted links for attendees.
+<!-- Set meeting date, type, and attendees in Properties above. Use quoted links for attendees. -->
 
 | Field          | Value              |
 | -------------- | ------------------ |

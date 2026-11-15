@@ -16,7 +16,7 @@ rating_scale: 5
 
 ## Overview
 
-> Set cuisine, difficulty, prep/cook time in minutes, servings, and rating in Properties above. Rate out of 5.
+<!-- Set cuisine, difficulty, prep/cook time in minutes, servings, and rating in Properties above. Rate out of 5. -->
 
 **Total time (minutes):**
 

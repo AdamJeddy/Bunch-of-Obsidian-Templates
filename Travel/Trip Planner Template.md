@@ -14,7 +14,7 @@ currency: # e.g. AED, USD, EUR
 
 ## Overview
 
-> Set destination, travel dates, status, and currency in Properties above.
+<!-- Set destination, travel dates, status, and currency in Properties above. -->
 
 | Field | Value |
 |-------|-------|

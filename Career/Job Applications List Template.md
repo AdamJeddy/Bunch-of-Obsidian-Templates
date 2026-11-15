@@ -10,7 +10,7 @@ last_reviewed: # YYYY-MM-DD; update manually after reviewing the dashboard
 ---
 # Job Applications Dashboard
 
-> Set status and last_reviewed in Properties above. Update counts and tables manually when an application changes.
+<!-- Set status and last_reviewed in Properties above. Update counts and tables manually when an application changes. -->
 
 ---
 
