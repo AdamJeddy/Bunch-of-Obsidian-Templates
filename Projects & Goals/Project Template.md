@@ -1,20 +1,18 @@
 ---
-created: ["{{date}} {{time}}"]
+note_type: project
+created: "{{date:YYYY-MM-DD}}T{{time:HH:mm:ss}}"
 tags:
   - project
-status: "planning"
-priority: 
+status: planning # planning / active / on-hold / completed / cancelled
+priority: # low / medium / high
 deadline: 
+category:
 ---
 # 🚀 [[{{title}}]]
 
 ## 📋 Overview
-| Field          | Value |
-| -------------- | ----- |
-| **Status**     | 🔴 Planning / 🟡 In Progress / 🟢 Complete |
-| **Priority**   |       |
-| **Deadline**   |       |
-| **Category**   |       |
+
+> Set status, priority, deadline, and category in Properties above.
 
 ## 🎯 Objective
 What is the goal of this project?

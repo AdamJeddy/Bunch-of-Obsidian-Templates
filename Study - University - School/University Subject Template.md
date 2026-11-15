@@ -1,5 +1,6 @@
 ---
-created: ["{{date}} {{time}}"]
+note_type: subject
+created: "{{date:YYYY-MM-DD}}T{{time:HH:mm:ss}}"
 tags:
   - university
   - subject
@@ -9,13 +10,13 @@ status: "active"
 ---
 # 📚 [[{{title}}]]
 
+> Set professor, semester, and status in Properties above.
+
 ## ❓ Information
 | Field               | Value |
 | ------------------- | ----- |
 | **Subject Name**    |       |
-| **Professor**       |       |
 | **Lab Instructor**  |       |
-| **Semester**        |       |
 | **Prerequisite**    |       |
 
 ## 🌍 General Overview
@@ -39,4 +40,4 @@ status: "active"
 - 
 
 ## 📝 Lecture Notes
-- 
+-

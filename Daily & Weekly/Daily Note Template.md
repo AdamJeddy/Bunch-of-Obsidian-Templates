@@ -1,10 +1,11 @@
 ---
-created: ["{{date}} {{time}}"]
+note_type: daily
+created: "{{date:YYYY-MM-DD}}T{{time:HH:mm:ss}}"
 tags:
   - daily
   - journal
-mood: 
-energy: 
+mood: # 1 (low) to 5 (high)
+energy: # 1 (low) to 5 (high)
 ---
 # 📅 {{date:dddd, MMMM D, YYYY}}
 
@@ -38,8 +39,8 @@ energy:
 - 
 
 ## 📊 End of Day Reflection
-- **Mood:** 
-- **Energy:** 
+> Record mood and energy in Properties above using the 1–5 scale.
+
 - **Productivity:** 
 - **What went well:** 
-- **What could be better:** 
+- **What could be better:**

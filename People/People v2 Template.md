@@ -1,5 +1,6 @@
 ---
-created: ["{{date}} {{time}}"]
+note_type: person-professional
+created: "{{date:YYYY-MM-DD}}T{{time:HH:mm:ss}}"
 tags:
   - people
   - contact
@@ -11,11 +12,12 @@ location:
 ---
 # 👤 [[{{title}}]]
 
+> Professional contact. Set birthday, occupation, company, and location in Properties above.
+
 ## 📋 Basic Info
 | Field               | Value |
 | ------------------- | ----- |
 | **Full Name**       |       |
-| **Date of Birth**   |       |
 | **Phone**           |       |
 | **Email**           |       |
 | **Address**         |       |
@@ -24,8 +26,6 @@ location:
 ## 💼 Professional
 | Field          | Value |
 | -------------- | ----- |
-| **Occupation** |       |
-| **Company**    |       |
 | **LinkedIn**   |       |
 | **Website**    |       |
 
@@ -47,4 +47,4 @@ location:
 | Anniversary |            |
 
 ## 🔗 References
-- 
+-

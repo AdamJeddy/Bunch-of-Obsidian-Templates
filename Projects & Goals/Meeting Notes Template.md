@@ -1,22 +1,21 @@
 ---
-created: ["{{date}} {{time}}"]
+note_type: meeting
+created: "{{date:YYYY-MM-DD}}T{{time:HH:mm:ss}}"
 tags:
   - meeting
   - notes
 attendees: []
 meeting_type: 
+meeting_date: "{{date:YYYY-MM-DD}}"
 ---
 # 🤝 Meeting — [Topic]
 
+> Set meeting date, type, and attendees in Properties above. Use quoted links for attendees.
+
 | Field          | Value              |
 | -------------- | ------------------ |
-| **Date**       | {{date:YYYY-MM-DD}} |
 | **Time**       |                    |
 | **Location**   |                    |
-| **Type**       |                    |
-
-## 👥 Attendees
-- 
 
 ## 🎯 Agenda
 1. 
@@ -43,4 +42,4 @@ meeting_type:
 - **Agenda:** 
 
 ## 💡 Open Questions
-- 
+-

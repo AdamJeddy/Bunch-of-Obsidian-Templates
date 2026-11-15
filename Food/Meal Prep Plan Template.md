@@ -1,13 +1,14 @@
 ---
-created: ["{{date}} {{time}}"]
+note_type: meal-plan
+created: "{{date:YYYY-MM-DD}}T{{time:HH:mm:ss}}"
 tags:
   - food
   - meal-prep
   - planning
 week: "{{date:WW}}"
-year: "{{date:YYYY}}"
+week_year: "{{date:GGGG}}"
 ---
-# Meal Prep Plan — Week {{date:WW}}, {{date:YYYY}}
+# Meal Prep Plan — Week {{date:WW}}, {{date:GGGG}}
 
 ## Grocery List
 ### Produce

@@ -1,5 +1,6 @@
 ---
-created: ["{{date}} {{time}}"]
+note_type: travel-journal
+created: "{{date:YYYY-MM-DD}}T{{time:HH:mm:ss}}"
 tags:
   - travel
   - journal
@@ -9,12 +10,12 @@ mood:
 ---
 # Travel Journal — [Location]
 
+> Set location, trip day, and mood in Properties above.
+
 | Field | Value |
 |-------|-------|
 | **Date** | {{date:YYYY-MM-DD}} |
-| **Location** | |
 | **Weather** | |
-| **Mood** | |
 
 ## Highlights of the Day
 1.

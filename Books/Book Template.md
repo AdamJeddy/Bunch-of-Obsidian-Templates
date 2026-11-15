@@ -1,9 +1,11 @@
 ---
-created: ["{{date}} {{time}}"]
+note_type: book
+created: "{{date:YYYY-MM-DD}}T{{time:HH:mm:ss}}"
 tags:
   - book
   - info
 rating: 
+rating_scale: 10
 author: 
 genre: 
 pages: 
@@ -12,16 +14,13 @@ date_finished:
 ---
 # 📖 [[{{title}}]]
 
-| X                      | X       |
+> Set author, genre, pages, reading dates, and rating in Properties above. Rate out of 10.
+
+| Reading detail         | Value   |
 | ---------------------- | ------- |
-| **Author:**            |         |
 | **Year of release:**   |         |
-| **Genre:**             |         |
-| **Pages:**             |         |
 | **Avg. WPM:**          |         |
-| **Started / Finished:**| X to X  |
 | **Time took:**         | X Hours |
-| **Rating:**            | /10     |
 
 ---
 ## 📝 About the Book
@@ -43,4 +42,3 @@ date_finished:
 
 ---
 ## 📋 Summary & Notes
-

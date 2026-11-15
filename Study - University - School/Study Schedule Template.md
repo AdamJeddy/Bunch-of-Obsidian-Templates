@@ -1,19 +1,20 @@
 ---
-created: ["{{date}} {{time}}"]
+note_type: study-schedule
+created: "{{date:YYYY-MM-DD}}T{{time:HH:mm:ss}}"
 tags:
   - university
   - schedule
-semester: 
-start_date: 
-end_date: 
+semester:
+start_date:
+end_date:
 ---
 # 📅 Study Schedule — [Semester]
+
+> Set semester, start date, and end date in Properties above.
 
 | Field           | Value |
 | --------------- | ----- |
 | **Courses**     |       |
-| **Start Date**  |       |
-| **End Date**    |       |
 
 ## 🗓 Weekly Plan
 
@@ -33,4 +34,4 @@ end_date:
 |        |      |          |        |
 
 ## 📝 Notes
-- 
+-

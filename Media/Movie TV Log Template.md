@@ -1,33 +1,30 @@
 ---
-created: ["{{date}} {{time}}"]
+note_type: media
+created: "{{date:YYYY-MM-DD}}T{{time:HH:mm:ss}}"
 tags:
   - media
   - movie
   - tv
 type: "movie" # or "tv"
-title: 
 year: 
 genre: 
 rating: 
+rating_scale: 10
 status: "plan to watch" # plan to watch / watching / finished
 ---
-# [Title] ([Year])
+# {{title}}
+
+> Set year, type, genre, rating, and watch status in Properties above. Rate out of 10.
 
 ## Info
 | Field | Value |
 |-------|-------|
-| **Title** | |
-| **Year** | |
-| **Type** | Movie / TV Series |
-| **Genre** | |
 | **Director / Creator** | |
 | **Platform / Where to Watch** | |
 | **Seasons / Episodes** | |
 | **Runtime** | |
 
 ## Review
-### Rating: /10
-
 ### Summary
 ...
 
