@@ -1,5 +1,6 @@
 ---
-created: ["{{date}} {{time}}"]
+note_type: trip
+created: "{{date:YYYY-MM-DD}}T{{time:HH:mm:ss}}"
 tags:
   - travel
   - planning
@@ -7,14 +8,16 @@ destination:
 start_date: 
 end_date: 
 status: "planning"
+currency: # e.g. AED, USD, EUR
 ---
 # Trip Planner — [Destination Name]
 
 ## Overview
+
+<!-- Set destination, travel dates, status, and currency in Properties above. -->
+
 | Field | Value |
 |-------|-------|
-| **Destination** | |
-| **Dates** | to |
 | **Travelers** | |
 | **Budget** | |
 | **Purpose** | |

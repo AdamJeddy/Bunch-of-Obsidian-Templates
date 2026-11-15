@@ -1,5 +1,6 @@
 ---
-created: ["{{date}} {{time}}"]
+note_type: yearly-review
+created: "{{date:YYYY-MM-DD}}T{{time:HH:mm:ss}}"
 tags:
   - log
   - yearly

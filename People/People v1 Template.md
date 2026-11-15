@@ -1,18 +1,21 @@
 ---
-created: ["{{date}} {{time}}"]
+note_type: person-personal
+created: "{{date:YYYY-MM-DD}}T{{time:HH:mm:ss}}"
 tags:
   - people
   - contact
 aliases: []
+birthday:
+location:
 ---
 # [[{{title}}]]
+
+<!-- Personal contact. Set birthday and location in Properties above. -->
 
 ## 📋 Basic Info
 | Field          | Value                |
 | -------------- | -------------------- |
 | **Full Name**  |                      |
-| **Birthday**   | yyyy-mm-dd           |
-| **Location**   |                      |
 | **Socials**    |                      |
 
 ## 👤 About
@@ -32,4 +35,4 @@ aliases: []
 
 ---
 ## 📝 Notes / Logs
-- 
+-

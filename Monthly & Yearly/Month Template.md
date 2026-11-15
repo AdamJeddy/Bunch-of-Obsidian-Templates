@@ -1,5 +1,6 @@
 ---
-created: ["{{date}} {{time}}"]
+note_type: monthly-review
+created: "{{date:YYYY-MM-DD}}T{{time:HH:mm:ss}}"
 tags:
   - log
   - monthly
@@ -8,7 +9,7 @@ month: "{{date:MM}}"
 ---
 # 📆 {{date:MMMM YYYY}}
 
-> ← [[{{date:YYYY}}-{{date:MM-1M}}|Previous Month]] | [[{{date:YYYY}}|Year Overview]] | [[{{date:YYYY}}-{{date:MM+1M}}|Next Month]] →
+> Previous month: [add link] | [[{{date:YYYY}}|Year Overview]] | Next month: [add link]
 
 ---
 ## 🎯 Goals
@@ -47,4 +48,4 @@ month: "{{date:MM}}"
 - 
 
 ## 📅 Next Month's Plan
-- 
+-

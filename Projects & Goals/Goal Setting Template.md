@@ -1,5 +1,6 @@
 ---
-created: ["{{date}} {{time}}"]
+note_type: goal-plan
+created: "{{date:YYYY-MM-DD}}T{{time:HH:mm:ss}}"
 tags:
   - goals
   - planning

@@ -1,5 +1,6 @@
 ---
-created: ["{{date}} {{time}}"]
+note_type: book-table
+created: "{{date:YYYY-MM-DD}}T{{time:HH:mm:ss}}"
 tags:
   - book
   - info

@@ -1,13 +1,14 @@
 ---
-created: ["{{date}} {{time}}"]
+note_type: weekly-review
+created: "{{date:YYYY-MM-DD}}T{{time:HH:mm:ss}}"
 tags:
   - log
   - weekly
   - review
 week: "{{date:WW}}"
-year: "{{date:YYYY}}"
+week_year: "{{date:GGGG}}"
 ---
-# 🔄 Weekly Review — Week {{date:WW}}, {{date:YYYY}}
+# 🔄 Weekly Review — Week {{date:WW}}, {{date:GGGG}}
 
 > [[Daily Notes|← Daily Notes]] | [[{{date:YYYY}}|Year Overview]]
 

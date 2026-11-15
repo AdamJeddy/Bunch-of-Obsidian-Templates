@@ -1,36 +1,35 @@
 ---
-created: ["{{date}} {{time}}"]
+note_type: lecture
+created: "{{date:YYYY-MM-DD}}T{{time:HH:mm:ss}}"
 tags:
   - university
   - lecture-notes
-subject: 
-week: 
-topic: 
+subject:
+week:
+topic:
 ---
-# 📝 Lecture Notes — [[Subject]] — Week {{date:WW}}
+# 📝 {{title}}
 
-| Field      | Value              |
-| ---------- | ------------------ |
-| **Date**   | {{date:YYYY-MM-DD}} |
-| **Topic**  |                    |
-| **Course** |                    |
+<!-- Set subject, topic, and teaching week in Properties above. Teaching week is entered manually. -->
+
+**Date:** {{date:YYYY-MM-DD}}
 
 ## 🎯 Key Points
-- 
+-
 
 ## 📖 Detailed Notes
 
 ### Subtopic 1
-- 
+-
 
 ### Subtopic 2
-- 
+-
 
 ## ❓ Questions & Clarifications
-- 
+-
 
 ## 📚 Homework / Tasks
-- [ ] 
+- [ ]
 
 ## 🔗 Related Notes
-- 
+-

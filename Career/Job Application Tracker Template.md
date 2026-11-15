@@ -1,5 +1,6 @@
 ---
-created: ["{{date}} {{time}}"]
+note_type: job-application
+created: "{{date:YYYY-MM-DD}}T{{time:HH:mm:ss}}"
 tags:
   - career
   - job-search
@@ -11,16 +12,14 @@ applied_date:
 ---
 # Job Application — [Role] at [Company]
 
+<!-- Set company, role, status, and application date in Properties above. -->
+
 ## Overview
 | Field | Value |
 |-------|-------|
-| **Company** | |
-| **Role** | |
 | **Location** | |
 | **Remote / Hybrid / On-site** | |
 | **Salary Range** | |
-| **Application Date** | |
-| **Status** | |
 | **Job Link** | |
 
 ## Contacts

@@ -1,5 +1,6 @@
 ---
-created: ["{{date}} {{time}}"]
+note_type: book-log
+created: "{{date:YYYY-MM-DD}}T{{time:HH:mm:ss}}"
 tags:
   - book
   - log
@@ -22,5 +23,4 @@ tags:
 - 
 
 ## 📝 Reading Reflections
-- 
-
+-

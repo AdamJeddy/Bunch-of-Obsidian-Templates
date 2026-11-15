@@ -1,15 +1,16 @@
 ---
-created: ["{{date}} {{time}}"]
+note_type: job-applications-dashboard
+created: "{{date:YYYY-MM-DD}}T{{time:HH:mm:ss}}"
 tags:
   - career
   - job-search
   - dashboard
 status: "active" # active / paused / completed
+last_reviewed: # YYYY-MM-DD; update manually after reviewing the dashboard
 ---
 # Job Applications Dashboard
 
-> **Status:** Active
-> **Last Updated:** {{date:YYYY-MM-DD}}
+<!-- Set status and last_reviewed in Properties above. Update counts and tables manually when an application changes. -->
 
 ---
 
