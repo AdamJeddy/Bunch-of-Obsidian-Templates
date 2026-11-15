@@ -22,3 +22,15 @@ Templates, corrections, and clearer examples are welcome. Keep each contribution
 3. Fill an example and check the links, tables, and checklists in reading mode.
 4. If you changed date expressions, check month/year boundaries and leap years.
 5. State what you tested in the pull request, including any optional plugins you used.
+
+## Automated checks
+
+Use Python 3.12 or newer and install the [development dependencies](requirements-dev.txt), preferably in a virtual environment:
+
+```sh
+python -m pip install -r requirements-dev.txt
+python -m unittest discover -s tests -v
+python scripts/validate.py
+```
+
+The same commands run in GitHub Actions on pushes and pull requests. The checker validates frontmatter (including duplicate keys), shared properties, supported variables, known date-format regressions, rating scales, and coverage in both catalogs. It checks local inline Markdown links outside fenced code blocks and wiki links between completed examples. It does not resolve links in reusable templates, since those refer to the user's vault, or test external websites and live Obsidian behavior.

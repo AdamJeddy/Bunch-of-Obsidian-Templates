@@ -77,5 +77,7 @@ Calendar and Tasks are optional additions to your own workflow. The supplied tem
 
 Template ideas, fixes, and clearer examples are welcome. Follow the [contribution checklist](CONTRIBUTING.md) and keep templates easy to adapt.
 
+Run the [repository checks](CONTRIBUTING.md#automated-checks) before submitting changes. User-facing changes are recorded in the [changelog](CHANGELOG.md).
+
 This collection is available under the [MIT License](LICENSE).
 
