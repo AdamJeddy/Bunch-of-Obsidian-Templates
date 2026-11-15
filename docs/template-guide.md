@@ -16,6 +16,9 @@ Create and name a note, insert the template, then fill the listed fields. Filena
 | [Goal Setting](../Projects%20%26%20Goals/Goal%20Setting%20Template.md) | `2027 Goals` | Set `timeframe`; choose goals with target dates and schedule quarterly reviews. |
 | [Project](../Projects%20%26%20Goals/Project%20Template.md) | `Community Garden` | Set status, priority, deadline, and category; write the objective and break it into milestones and tasks. |
 | [Meeting Notes](../Projects%20%26%20Goals/Meeting%20Notes%20Template.md) | `2026-11-02 Garden Planning` | Set meeting date/type and attendees; prepare an agenda and turn discussion into owned action items. |
+| [Decision Log](../Projects%20%26%20Goals/Decision%20Log%20Template.md) | `Garden Watering Plan` | Link the parent project, compare options, record the choice and reasoning, then set status and review date. |
+| [Project Retrospective](../Projects%20%26%20Goals/Project%20Retrospective%20Template.md) | `2026-11-14 Garden Retrospective` | Link the project, compare intended and actual outcomes, and assign an improvement for next time. |
+| [Project Dashboard](../Projects%20%26%20Goals/Project%20Dashboard%20Template.md) | `Project Dashboard` | Add project links and next actions; update review reminders and `last_reviewed` manually. |
 | [Habit Tracker](../Habits/Habit%20Tracker%20Template.md) | `2026-11 Habits` | Name the habits and weekly goals; use the grid's mark legend and cross out nonexistent dates. |
 | [Job Applications Dashboard](../Career/Job%20Applications%20List%20Template.md) | `Job Search` | Set search status; link individual application notes and maintain pipeline tables/counts. Update `last_reviewed` when reviewing. |
 | [Job Application](../Career/Job%20Application%20Tracker%20Template.md) | `Acme - Product Designer` | Set company, role, status, and applied date in Properties; track contacts, interviews, and follow-ups below. |
@@ -30,3 +33,5 @@ Create and name a note, insert the template, then fill the listed fields. Filena
 | [University Subject](../Study%20-%20University%20-%20School/University%20Subject%20Template.md) | `Biology 101` | Set semester, professor, and status; add assignment deadlines, resources, and lecture-note links. |
 
 For past or future periods, correct inserted dates to match the note. Core Templates fills today's date, even when the filename contains another date.
+
+See the [project workflow](workflows/project-workflow.md) and [completed examples](../examples/README.md) for linked notes in use.

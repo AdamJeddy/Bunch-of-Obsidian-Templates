@@ -7,8 +7,9 @@ tags:
 attendees: []
 meeting_type: 
 meeting_date: "{{date:YYYY-MM-DD}}"
+project: # optional quoted link, e.g. "[[Community Garden]]"
 ---
-# 🤝 Meeting — [Topic]
+# 🤝 {{title}}
 
 > Set meeting date, type, and attendees in Properties above. Use quoted links for attendees.
 
@@ -36,6 +37,11 @@ meeting_date: "{{date:YYYY-MM-DD}}"
 - [ ] Action 1 — @owner — Due: 
 - [ ] Action 2 — @owner — Due: 
 - [ ] Action 3 — @owner — Due: 
+
+## Decisions
+
+- Decision note:
+- Open decision to resolve:
 
 ## 🔜 Next Meeting
 - **Date:** 

@@ -8,7 +8,7 @@ priority: # low / medium / high
 deadline: 
 category:
 ---
-# 🚀 [[{{title}}]]
+# 🚀 {{title}}
 
 ## 📋 Overview
 
@@ -39,6 +39,14 @@ What is the goal of this project?
 
 ## 🔗 Related Notes
 - 
+
+## 🔄 Workflow Notes
+
+Create notes as you need them and add their links here. Set each child note's `project` property to a link to this note.
+
+- Meetings:
+- Decisions:
+- Retrospective:
 
 ## 📝 Log
 | Date | Update |

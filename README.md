@@ -21,7 +21,10 @@ The `{{date}}`, `{{time}}`, and `{{title}}` syntax belongs to core Templates. Te
 - [Setup, automatic values, and troubleshooting](docs/usage.md)
 - [How to use each template and name your notes](docs/template-guide.md)
 - [Properties, status values, and migration notes](docs/properties.md)
+- [Connected project workflow and completed examples](docs/workflows/project-workflow.md)
 - [Contributing a template or improvement](CONTRIBUTING.md)
+
+Start a connected workflow with **Project → Meeting → Decision → Retrospective**, and review it from a Project Dashboard. The [completed example](examples/README.md) includes a contact note and works without community plugins.
 
 ## Template catalog
 
@@ -41,6 +44,9 @@ All templates below use core-compatible variables and need no community plugins.
 | Projects & Goals | [Goal Setting](Projects%20%26%20Goals/Goal%20Setting%20Template.md) | Goals across life areas and quarterly checkpoints |
 | Projects & Goals | [Project](Projects%20%26%20Goals/Project%20Template.md) | Objectives, milestones, tasks, and progress |
 | Projects & Goals | [Meeting Notes](Projects%20%26%20Goals/Meeting%20Notes%20Template.md) | Agenda, discussion, and action items |
+| Projects & Goals | [Decision Log](Projects%20%26%20Goals/Decision%20Log%20Template.md) | Options, reasoning, consequences, and follow-up |
+| Projects & Goals | [Project Retrospective](Projects%20%26%20Goals/Project%20Retrospective%20Template.md) | Outcomes, lessons, and improvements for next time |
+| Projects & Goals | [Project Dashboard](Projects%20%26%20Goals/Project%20Dashboard%20Template.md) | Project links, next actions, and review reminders |
 | Habits | [Habit Tracker](Habits/Habit%20Tracker%20Template.md) | A manual monthly grid with daily marks |
 | Career | [Job Applications Dashboard](Career/Job%20Applications%20List%20Template.md) | A manual overview of your job search |
 | Career | [Job Application](Career/Job%20Application%20Tracker%20Template.md) | One application, with contacts, timeline, and interview preparation |
