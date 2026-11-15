@@ -27,10 +27,10 @@ See the [desktop validation record](docs/validation.md) for the tested paths and
 
 ## Automated checks
 
-Use Python 3.12 or newer and install the [development dependencies](requirements-dev.txt), preferably in a virtual environment:
+Use Python 3.12 or newer and install PyYAML, the validator's only dependency, preferably in a virtual environment:
 
 ```sh
-python -m pip install -r requirements-dev.txt
+python -m pip install PyYAML==6.0.3
 python -m unittest discover -s tests -v
 python scripts/validate.py
 ```

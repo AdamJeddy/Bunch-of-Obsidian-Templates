@@ -21,6 +21,8 @@
 
 ### Fixed
 
+- CI and contributor setup install the validator's dependency directly.
+
 - Repository checks reject invalid dates and unsupported status values, including malformed unquoted dates that previously caused the checker to crash.
 
 - Weekly labels use the ISO week-year at New Year.
